@@ -6,4 +6,4 @@ const convert = inr => {
  return (inr / EXCHANGE_RATE).toFixed(2);
  }
 }
-module.exports = converter;
+module.exports = convert;
